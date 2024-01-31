@@ -4,6 +4,8 @@
 #include <opencv2/opencv.hpp>
 #include <unistd.h>
 #include <thread>
+#include <atomic>
+#include <memory>
 
 struct RTSPVideoStreamConfig
 {
